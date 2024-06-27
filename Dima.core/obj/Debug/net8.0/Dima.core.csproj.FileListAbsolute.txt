@@ -1,0 +1,11 @@
+C:\Dev\Dima\Dima.core\bin\Debug\net8.0\Dima.core.deps.json
+C:\Dev\Dima\Dima.core\bin\Debug\net8.0\Dima.core.dll
+C:\Dev\Dima\Dima.core\bin\Debug\net8.0\Dima.core.pdb
+C:\Dev\Dima\Dima.core\obj\Debug\net8.0\Dima.core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Dima\Dima.core\obj\Debug\net8.0\Dima.core.AssemblyInfoInputs.cache
+C:\Dev\Dima\Dima.core\obj\Debug\net8.0\Dima.core.AssemblyInfo.cs
+C:\Dev\Dima\Dima.core\obj\Debug\net8.0\Dima.core.csproj.CoreCompileInputs.cache
+C:\Dev\Dima\Dima.core\obj\Debug\net8.0\Dima.core.dll
+C:\Dev\Dima\Dima.core\obj\Debug\net8.0\refint\Dima.core.dll
+C:\Dev\Dima\Dima.core\obj\Debug\net8.0\Dima.core.pdb
+C:\Dev\Dima\Dima.core\obj\Debug\net8.0\ref\Dima.core.dll
