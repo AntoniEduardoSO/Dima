@@ -4540,8 +4540,8 @@
     },
     "Dima.core/1.0.0": {
       "type": "project",
-      "path": "../Dima.core/Dima.core.csproj",
-      "msbuildProject": "../Dima.core/Dima.core.csproj"
+      "path": "../Dima.Core/Dima.core.csproj",
+      "msbuildProject": "../Dima.Core/Dima.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4554,7 +4554,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\antoniooliveira\\.nuget\\packages\\": {}
+    "C:\\Users\\HailK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4562,26 +4562,24 @@
       "projectUniqueName": "C:\\Dev\\Dima\\Dima.Api\\Dima.Api.csproj",
       "projectName": "Dima.Api",
       "projectPath": "C:\\Dev\\Dima\\Dima.Api\\Dima.Api.csproj",
-      "packagesPath": "C:\\Users\\antoniooliveira\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\HailK\\.nuget\\packages\\",
       "outputPath": "C:\\Dev\\Dima\\Dima.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\antoniooliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HailK\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj": {
-              "projectPath": "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj"
+            "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj": {
+              "projectPath": "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj"
             }
           }
         }
@@ -4639,7 +4637,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -12,7 +12,7 @@ var cnnStr = builder
 builder.Services.AddDbContext<AppDbContext>(
     x =>
     {
-        x.UseSqlServer();
+        x.UseSqlServer(cnnStr);
     });
 
 builder.Services.AddEndpointsApiExplorer();
