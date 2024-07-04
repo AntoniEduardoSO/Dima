@@ -4540,8 +4540,8 @@
     },
     "Dima.core/1.0.0": {
       "type": "project",
-      "path": "../Dima.Core/Dima.core.csproj",
-      "msbuildProject": "../Dima.Core/Dima.core.csproj"
+      "path": "../Dima.core/Dima.core.csproj",
+      "msbuildProject": "../Dima.core/Dima.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4578,8 +4578,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj": {
-              "projectPath": "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj"
+            "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj": {
+              "projectPath": "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj"
             }
           }
         }

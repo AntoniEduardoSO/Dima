@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj": {
-                "projectPath": "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj"
+              "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj": {
+                "projectPath": "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj": {
+    "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj",
+        "projectUniqueName": "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj",
         "projectName": "Dima.core",
-        "projectPath": "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj",
+        "projectPath": "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj",
         "packagesPath": "C:\\Users\\HailK\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Dima\\Dima.Core\\obj\\",
+        "outputPath": "C:\\Dev\\Dima\\Dima.core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HailK\\AppData\\Roaming\\NuGet\\NuGet.Config"
