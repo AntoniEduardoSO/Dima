@@ -4540,8 +4540,8 @@
     },
     "Dima.core/1.0.0": {
       "type": "project",
-      "path": "../Dima.core/Dima.core.csproj",
-      "msbuildProject": "../Dima.core/Dima.core.csproj"
+      "path": "../Dima.Core/Dima.core.csproj",
+      "msbuildProject": "../Dima.Core/Dima.core.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4559,11 +4559,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\Dima\\Dima.Api\\Dima.Api.csproj",
+      "projectUniqueName": "C:\\Dev\\Dima\\dima.api\\Dima.Api.csproj",
       "projectName": "Dima.Api",
-      "projectPath": "C:\\Dev\\Dima\\Dima.Api\\Dima.Api.csproj",
+      "projectPath": "C:\\Dev\\Dima\\dima.api\\Dima.Api.csproj",
       "packagesPath": "C:\\Users\\HailK\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\Dima\\Dima.Api\\obj\\",
+      "outputPath": "C:\\Dev\\Dima\\dima.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HailK\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4578,8 +4578,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj": {
-              "projectPath": "C:\\Dev\\Dima\\Dima.core\\Dima.core.csproj"
+            "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj": {
+              "projectPath": "C:\\Dev\\Dima\\Dima.Core\\Dima.core.csproj"
             }
           }
         }
