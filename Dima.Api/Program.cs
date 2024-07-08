@@ -1,4 +1,5 @@
 using Dima.Api.Data;
+using Dima.Api.Endpoints;
 using Dima.Api.Handlers;
 using Dima.core.Handlers;
 using Dima.core.Models;
@@ -33,14 +34,8 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.MapPost(
-    pattern: "/v1/categories",
-    handler: (
-        CreateCategoryRequest request,
-        ICategoryHandler handler)
-    => handler.CreateAsync(request))
-    .WithName("Categories: Create")
-    .WithSummary("Cria uma nova categoria")
-    .Produces<Response<Category>>();
+app.MapGet("/", () => new {message = "OK"});
+app.MapEndpoints();
+
 
 app.Run();

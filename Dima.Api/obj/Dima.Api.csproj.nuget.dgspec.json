@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Dima\\Dima.Api\\Dima.Api.csproj": {}
+    "C:\\Dev\\Dima\\dima.api\\Dima.Api.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Dima\\Dima.Api\\Dima.Api.csproj": {
+    "C:\\Dev\\Dima\\dima.api\\Dima.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Dima\\Dima.Api\\Dima.Api.csproj",
+        "projectUniqueName": "C:\\Dev\\Dima\\dima.api\\Dima.Api.csproj",
         "projectName": "Dima.Api",
-        "projectPath": "C:\\Dev\\Dima\\Dima.Api\\Dima.Api.csproj",
+        "projectPath": "C:\\Dev\\Dima\\dima.api\\Dima.Api.csproj",
         "packagesPath": "C:\\Users\\HailK\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Dima\\Dima.Api\\obj\\",
+        "outputPath": "C:\\Dev\\Dima\\dima.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HailK\\AppData\\Roaming\\NuGet\\NuGet.Config"
