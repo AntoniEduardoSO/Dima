@@ -11,8 +11,8 @@ public class DeleteCategoryEndpoint : IEndpoint
     public static void Map(IEndpointRouteBuilder app)
         => app.MapDelete("/{id}", HandleAsync)
         .WithName("Categories: Delete")
-        .WithSummary("Atualiza uma nova categoria")
-        .WithDescription("Atualiza uma nova categoria")
+        .WithSummary("Deleta uma categoria")
+        .WithDescription("Deleta uma categoria")
         .WithOrder(3)
         .Produces<Response<Category?>>();
 

@@ -10,8 +10,8 @@ public class UpdateCategoryEndpoint : IEndpoint
     public static void Map(IEndpointRouteBuilder app)
         => app.MapPut("/{id}", HandleAsync)
         .WithName("Categories: Update")
-        .WithSummary("Atualiza uma nova categoria")
-        .WithDescription("Atualiza uma nova categoria")
+        .WithSummary("Atualiza uma categoria")
+        .WithDescription("Atualiza uma categoria")
         .WithOrder(2)
         .Produces<Response<Category?>>();
 

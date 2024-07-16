@@ -7,7 +7,7 @@ public class Response<TData>
     private readonly int _code;
 
     [JsonConstructor]
-    public Response()
+    public Response(Task<Models.Transaction?> transaction)
         => _code = Configuration.DefaultStatusCode;
     
     public Response(

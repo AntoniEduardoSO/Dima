@@ -1,10 +1,8 @@
-using System.Linq.Expressions;
 using Dima.Api.Data;
 using Dima.core.Handlers;
 using Dima.core.Models;
 using Dima.core.Requests.Categories;
 using Dima.core.Responses;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Dima.Api.Handlers;
