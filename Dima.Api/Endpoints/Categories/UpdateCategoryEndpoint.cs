@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using Dima.Api.Common.Api;
 using Dima.core.Handlers;
 using Dima.core.Models;
@@ -16,11 +17,11 @@ public class UpdateCategoryEndpoint : IEndpoint
         .Produces<Response<Category?>>();
 
 
-    private static async Task<IResult> HandleAsync(ICategoryHandler handler, UpdateCategoryRequest request, long id)
+    private static async Task<IResult> HandleAsync(ClaimsPrincipal user, ICategoryHandler handler, UpdateCategoryRequest request, long id)
     {
         var result = await handler.UpdateAsync(request);
 
-        request.UserId = "test@barra.io";
+        request.UserId = user.Identity?.Name ?? string.Empty;;
         request.Id = id;
 
         return result.IsSuccess

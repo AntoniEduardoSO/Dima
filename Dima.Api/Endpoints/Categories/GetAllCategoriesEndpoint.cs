@@ -1,4 +1,5 @@
 
+using System.Security.Claims;
 using Dima.Api.Common.Api;
 using Dima.core;
 using Dima.core.Handlers;
@@ -21,12 +22,13 @@ public class GetAllCategoriesEndpoint : IEndpoint
 
     private static async Task<IResult> HandleAsync(
         ICategoryHandler handler,
+        ClaimsPrincipal user,
         [FromQuery]int PageNumber = Configuration.DefaultPageNumber,
         [FromQuery]int PageSize = Configuration.DefaultPageSize)
     {
         var request = new GetAllCategoriesRequest
         {
-            UserId = "test@balta.io",
+            UserId = user.Identity?.Name ?? string.Empty,
             PageNumber = PageNumber,
             PageSize = PageSize,
         };
